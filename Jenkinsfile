@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage(build){
             steps{
-                echo "Hello"
+                pwd
+                ls -lrt
             }
         }
     }
