@@ -3,8 +3,10 @@ pipeline{
     stages{
         stage(build){
             steps{
+             sh '''
                 pwd
                 ls -lrt
+                '''
             }
         }
     }
